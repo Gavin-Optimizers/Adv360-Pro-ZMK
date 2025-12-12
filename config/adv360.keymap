@@ -76,7 +76,7 @@
 &kp TAB    &kp Q            &kp W        &kp E     &kp R       &kp T        &none                                                                 &none      &kp Y      &kp U          &kp I         &kp O                 &kp P                  &kp BSLH
 &kp ESC    &kp A            &kp S        &kp D     &kp F       &kp G        &none  &kp LCTRL  &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &kp RCTRL      &none      &kp H      &kp J          &kp K         &kp L                 &kp SEMI               &kp ENTER
 &none      &kp Z            &kp X        &kp C     &kp V       &kp B                          &kp LEFT_ALT        &kp RIGHT_ALT                              &kp N      &kp M          &kp COMMA     &kp DOT               &kp FSLH               &none
-&mo 2      &none            &none        &kp LEFT  &kp RIGHT                &mo 4  &mo 1      &kp TAB             &kp LEFT_META    &kp BACKSPACE  &kp SPACE             &kp DOWN       &kp UP_ARROW  &kp LEFT_BRACE        &kp RIGHT_BRACE        &mo 2
+&mo 2      &none            &none        &kp LEFT  &kp RIGHT                &mo 4  &mo 1      &kp TAB             &kp LEFT_META    &kp BACKSPACE  &kp SPACE             &kp DOWN       &kp UP_ARROW  &kp LEFT_BRACE        &kp RIGHT_BRACE        &to 5
             >;
         };
 
@@ -123,6 +123,16 @@
             >;
 
             label = "shifted";
+        };
+
+        games {
+            bindings = <
+&kp ESC    &kp N1    &kp N2  &kp N3  &kp N4  &kp N5  &kp N6                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q     &kp W   &kp E   &kp R   &kp T   &kp Y                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp BSLH   &kp A     &kp S   &kp D   &kp F   &kp G   &kp H      &kp U  &kp I      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Z     &kp X   &kp C   &kp V   &kp B                     &kp K      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LALT  &kp N7  &kp N8  &kp N9          &kp SPACE  &kp J  &kp M      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &to 0
+            >;
         };
 
         extra1 {
