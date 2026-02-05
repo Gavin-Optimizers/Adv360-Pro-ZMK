@@ -80,9 +80,9 @@
             display-name = "Kp";
             bindings = <
 &trans  &trans  &trans  &trans  &trans         &trans             &trans                                             &trans     &trans           &mac_tringle_operator  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &tap_parens    &kp GRAVE          &trans                                             &trans     &mac_fat_arrow   &kp KP_N7              &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
+&trans  &trans  &trans  &trans  &tap_parens    &kp GRAVE          &trans                                             &trans     &mac_long_arrow  &kp KP_N7              &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
 &trans  &trans  &trans  &trans  &tap_braces    &kp SINGLE_QUOTE   &trans  &trans  &trans      &trans  &trans         &trans     &mac_arrow       &kp KP_N4              &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
-&trans  &trans  &trans  &trans  &tap_brackets  &kp DOUBLE_QUOTES                  &trans      &trans                            &mac_long_arrow  &kp KP_N1              &kp KP_N2     &kp KP_N3      &kp KP_DOT       &trans
+&trans  &trans  &trans  &trans  &tap_brackets  &kp DOUBLE_QUOTES                  &trans      &trans                            &mac_fat_arrow   &kp KP_N1              &kp KP_N2     &kp KP_N3      &kp KP_DOT       &trans
 &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans      &trans  &kp BACKSPACE  &kp KP_N0                   &trans                 &trans        &trans         &trans           &trans
             >;
         };
